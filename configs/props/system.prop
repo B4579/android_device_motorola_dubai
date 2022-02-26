@@ -46,7 +46,6 @@ persist.vendor.ims.disableQXDMLogs=1
 ro.config.low_ram=false
 
 # Media
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
 
 # Netmgrd
