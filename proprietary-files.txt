@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from S1RDS32.55-94-2 8f252f
+# All unpinned blobs below are extracted from S1RD32.55-106 0cdff5
 
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -971,7 +971,7 @@ vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/init.qti.media.sh
 vendor/etc/init/init.qti.media.rc
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
--vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+-vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml
 vendor/etc/media_yupik_v0/video_system_specs.json
 vendor/etc/media_yupik_v1/video_system_specs.json
 vendor/etc/media/video_system_specs.json
@@ -1267,10 +1267,18 @@ vendor/etc/init/qcrilNrd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/qcril_database/qcrilNr.db
+vendor/etc/qcril_database/upgrade/config/11.0_config.sql
 vendor/etc/qcril_database/upgrade/config/10.0_config.sql
 vendor/etc/qcril_database/upgrade/config/6.0_config.sql
 vendor/etc/qcril_database/upgrade/config/9.0_config.sql
 vendor/etc/qcril_database/upgrade/ecc/0_initial.sql
+vendor/etc/qcril_database/upgrade/ecc/3_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/7_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/8_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/9_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/ecc/10_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/ecc/11_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/ecc/12_version_qcrildb.sql
@@ -1292,13 +1300,10 @@ vendor/etc/qcril_database/upgrade/ecc/27_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/ecc/28_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/ecc/29_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/ecc/30_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/3_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/7_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/8_version_qcrildb.sql
-vendor/etc/qcril_database/upgrade/ecc/9_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/31_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/34_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/35_version_qcrildb.sql
+vendor/etc/qcril_database/upgrade/ecc/39_version_qcrildb.sql
 vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.sql
