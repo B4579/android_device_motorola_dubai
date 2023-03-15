@@ -11,5 +11,4 @@
          Max((status bar content height + waterfall top size), top cutout size) -->
     <dimen name="status_bar_height_portrait">105.0px</dimen>
 
-    <dimen name="status_bar_padding_top_portrait">20.0px</dimen>
 </resources>
