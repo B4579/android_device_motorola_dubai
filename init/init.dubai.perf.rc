@@ -24,7 +24,3 @@ setprop dalvik.vm.dex2oat-threads 6
 
 # Enable suspend to RAM
 write /sys/power/mem_sleep "deep"
-
-on property:ro.board.platform=lahaina
-    # Disable multiple kswapd threads
-    write /proc/sys/vm/kswapd_threads 1
