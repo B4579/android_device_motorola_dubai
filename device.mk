@@ -246,8 +246,7 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
 
 # Init
 PRODUCT_PACKAGES += \
-    libinit_dubai \
-    init.dubai.perf.rc
+    libinit_dubai
 
 # IPACM
 PRODUCT_PACKAGES += \
