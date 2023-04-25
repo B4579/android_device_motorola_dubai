@@ -1545,7 +1545,6 @@ vendor/etc/init/init_thermal-engine.rc
 
 # Thermal engine - configs
 vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-dubai.conf
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
