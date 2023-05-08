@@ -74,4 +74,5 @@ void load_dalvikvm_properties() {
 void vendor_load_properties() {
   // dalvikvm props
   load_dalvikvm_properties();
+  property_override("ro.rising.chipset", "Snapdragon® 778+ 5G");
 }
