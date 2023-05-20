@@ -145,7 +145,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
     libgui_vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor
+    vendor.qti.hardware.camera.postproc@1.0.vendor \
+    libshims_camera
 
 # Charger
 WITH_LINEAGE_CHARGER := false
@@ -297,7 +298,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_performance_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v1.xml \
     $(LOCAL_PATH)/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
-    $(LOCAL_PATH)/media/media_profiles_yupik_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v0.xml \
     $(LOCAL_PATH)/media/media_profiles_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v1.xml
 
 PRODUCT_COPY_FILES += \
@@ -312,16 +312,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
-    libavservices_minijail_vendor \
-    libcodec2_hidl@1.0.vendor
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_soft_common.vendor \
+    libsfplugin_ccodec_utils.vendor
 
 # MotoActions
 PRODUCT_PACKAGES += \
     MotoActions
-
-# Neural Networks
-PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.3.vendor
 
 # Net
 PRODUCT_PACKAGES += \

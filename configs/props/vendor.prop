@@ -280,7 +280,7 @@ persist.vendor.radio.start_ota_daemon=0
 persist.vendor.radio.suppress_ussd_rel=1
 persist.vendor.radio.sw_mbn_update=0
 persist.vendor.rcs.presence.provision=0
-ro.vendor.radio.imei.sv=14
+ro.vendor.radio.imei.sv=18
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
