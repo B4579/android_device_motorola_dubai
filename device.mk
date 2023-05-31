@@ -146,7 +146,8 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libgui_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
-    libshims_camera
+    DubaiCameraService \
+    libshims_camera 
 
 # Charger
 WITH_LINEAGE_CHARGER := false
