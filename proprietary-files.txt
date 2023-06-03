@@ -114,13 +114,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 
-# Bluetooth (firmware)
-vendor/firmware/msnv10.bin
-vendor/firmware/msnv11.bin
-vendor/firmware/msbtfw10.tlv
-vendor/firmware/msbtfw11.tlv
-vendor/firmware/msbtfw11.mbn
-
 # Bluetooth (A2DP)
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
